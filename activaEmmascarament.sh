@@ -1,5 +1,5 @@
 #!/bin/bash
-//per el router
+#per el router
 iptables -t nat -A POSTROUTING -s 192.168.2.32/27 -j MASQUERADE
 iptables -t nat -A POSTROUTING -s 192.168.2.64/27 -j MASQUERADE
 iptables -t nat -A POSTROUTING -s 192.168.2.96/27 -j MASQUERADE
